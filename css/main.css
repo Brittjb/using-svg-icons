@@ -1,6 +1,13 @@
 html {
   box-sizing: border-box;
   text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 ul {
@@ -15,7 +22,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #76a500
+  color: #76a500;
 }
 
 a:hover,
@@ -35,5 +42,5 @@ a:focus {
   position: absolute;
   top: 0;
   width: 100%;
-  fill:currentcolor;
+  fill: currentColor;
 }
